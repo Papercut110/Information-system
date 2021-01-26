@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqToBase">
+  <DataContextMoniker Name="/LinqToBaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="021cf26a-3544-4aaf-846b-394e95902f04" absoluteBounds="1.875, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LinqToBaseDataContext/Emploees" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c104558-74f5-404b-b36f-dbe294bcf4b1" absoluteBounds="1.8899999999999997, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15d48f89-1bc4-4d6b-82a5-0e997d375fcc" absoluteBounds="7.25, 1.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/LinqToBaseDataContext/Dep" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7496bef3-a4f4-4b48-976e-27f9473501d9" absoluteBounds="7.265, 2.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.25 : 2.68540489952844); (7.12625 : 2.68540489952844); (7.12625 : 2.75324625651042); (6.875 : 2.75324625651042); (6.875 : 2.88221663411458); (3.875 : 2.88221663411458)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller">
+      <AssociationMoniker Name="/LinqToBaseDataContext/Dep/Dep_Emploees" />
+      <nodes>
+        <classShapeMoniker Id="15d48f89-1bc4-4d6b-82a5-0e997d375fcc" />
+        <classShapeMoniker Id="021cf26a-3544-4aaf-846b-394e95902f04" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
